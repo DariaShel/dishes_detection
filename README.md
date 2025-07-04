@@ -46,4 +46,6 @@ python testing.py
 # Результаты
 Полное видео с примером детекции можно скачать [здесь](https://drive.google.com/drive/folders/1ue_FkxTGQAqX2oDi2H4VQ19m6pTVuXCS?usp=sharing)
 
-<img src="example/example.gif" width="600" alighn="center">
+<p align="center">
+<img src="example/example.gif" width="600">
+</p>
