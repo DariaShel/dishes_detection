@@ -32,5 +32,18 @@ dish-detection
 
 Чтобы не повторять процедуру обучения модели прикрепляю [архив](https://drive.google.com/drive/folders/1EV9e65IrScmN1NkVUbG3WKorA9Ve6OHt?usp=sharing) с полученными весами, а также результатами тестирования. Архив необходимо скачать и положить рядом с ноутбуком, после чего можно будет воспроизвести тестирование моделей и построение графиков по полученным метрикам.
 
+# Тестирование модели на видео
+Для запуска обученной модели на видео необходимо установить следующие библиотеки:
+```bash
+pip install opencv-python
+pip install ultralytics
+```
+И запустить скрипт `testing.py`:
+```bash
+python testing.py
+```
+
 # Результаты
-<img src="example/3_1.gif" width="600">
+Полное видео с примером детекции можно скачать [здесь](https://drive.google.com/drive/folders/1ue_FkxTGQAqX2oDi2H4VQ19m6pTVuXCS?usp=sharing)
+
+<img src="example/example.gif" width="600" alighn="center">
